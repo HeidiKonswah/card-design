@@ -1,0 +1,65 @@
+body {
+  font-family:Arial;
+  background-color: lavender;
+}
+.card {
+  background-color: #fff;
+  width: 35%;
+  min-width: 300px;
+  box-shadow: 5px 5px 5px #ccc;
+  margin-left: 30px;
+
+}
+.text {
+  z-index: 100;
+  background-color: #fff;
+  margin: 15px;
+  margin-top: -60px;
+  padding: 10px;
+}
+.mainHeading, .subHeading {
+    text-align: center;
+}
+.img {
+  width:100%;
+  height: 50%;
+  min-height: 200px;
+  background-image: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blue-tranquility-kats-contemporary-abstract-art.jpg");
+}
+.mainHeading{
+  color: #333;
+  letter-spacing: 3px;
+  text-transform: upperCase;
+}
+.subHeading {
+  color: #777;
+  font-size: 12px;
+}
+p {
+  color: #333;
+  margin: 5px;
+  font-family:roboto;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.btn {
+  font-family:Arial;
+  background-color: #fff;
+  border: 1px solid #777;
+  border-radius: 3px;
+  display: block;
+  color: #333;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 6px 34px;
+  text-decoration:none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 2px #ddd;
+}
